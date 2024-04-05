@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Eco Eval",
+  "version": "1.0.0",
+  "description": "Eco Eval, an AI-powered Chrome extension, helps you shop greener by evaluating the environmental impact of products on e-commerce sites. It offers quick insights into their eco-friendliness, nudging you towards making more sustainable choices.",
+  "action": {
+    "default_popup": "index.html"
+  },
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["content.js"]
+    }
+  ]
+}
