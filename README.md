@@ -2,22 +2,17 @@
 
 ## Project setup
 ```
-npm install
+npm i
 ```
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
+### Compiles - ready for import to chrome as extension
 ```
 npm run build
 ```
 
-### Lints and fixes files
+### Load unpacked in chrome
 ```
-npm run lint
+load dist folder into chrome extensions
 ```
 
 ### Customize configuration
